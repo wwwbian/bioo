@@ -1,3 +1,6 @@
+let botonADN = document.getElementById("adn");
+let botonARN = document.getElementById("arn");
+
 document.getElementById('BotonGenerador').addEventListener('click', function () {
     let Caracteres = 'ACGT';
     let secuenciaADN = '';
@@ -24,5 +27,20 @@ document.getElementById('BotonGenerador').addEventListener('click', function () 
     
     document.getElementById('secuenciaADN').textContent = 'Secuencia de ADN generada: ' + secuenciaADN;
     document.getElementById('secuenciaARN').textContent = 'Secuencia de ARN generada: ' + secuenciaARN;
+
+// TEXTO ADN
+botonADN.addEventListener("click", function () {
+  let elementoMensaje = document.getElementById("ola");
+  let mensaje = "Se genera la cadena de ADN";
+  elementoMensaje.textContent = mensaje;
+});
+
+// TEXTO ARN
+botonARN.addEventListener("click", function () {
+    let elementoMensajee = document.getElementById("ola2");
+    let mensaje2 = "Se traduce la cadena de ADN a ARN";
+    elementoMensajee.textContent = mensaje2;
+  });
+
 });
 
