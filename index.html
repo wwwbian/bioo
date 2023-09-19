@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="icon" type="image/svg+xml" href="http://127.0.0.1:5500/img/Azul%20con%20Formas%20Superpuestas%20Estudio%20de%20Fotograf%C3%ADa%20Logo(1).png" />
     <title>alga marina</title>
 </head>
     <body class="d-flex flex-column h-100">
@@ -57,6 +58,7 @@
       <div class="nav">
       <img src="/img/Azul con Formas Superpuestas Estudio de Fotografía Logo(1).png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
       <a class="navbar-brand" href="#">Algas Marinas</a>
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -69,21 +71,19 @@
   </nav>
   </header>
   
+  <p id="secuenciaADN"></p> <button type="button" class="btn btn-success" id="adn">ADN</button>
+
+  <p id="texto1"></p>
+  <p id="secuenciaARN"></p> <button type="button" class="btn btn-success" id="arn">ARN</button>
+
+  <p id="texto2"></p>
   
-  <p id="secuenciaADN"></p> <button type="button" class="btn btn-dark" id="adn">ADN</button>
-  <p id="ola"></p>
-  <p id="secuenciaARN"></p> <button type="button" class="btn btn-dark" id="arn">ARN</button>
-  <p id="ola2"></p>
-  
-  
-  
-  <button type="button" class="btn btn-secondary" id="BotonGenerador" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
-    Generar
-  </button>
+
+  <button type="button" id="BotonGenerador" class="btn btn-dark">Generar Cadena</button>
  
   <footer class="footer">
     © 2023 Esta pagina fue creada por Mayra,Mili y Bianca 
   </footer>
     </body>
-    <script src="scrip.js"></script>
+    <script src="/js/scrip.js"></script>
 </html>  

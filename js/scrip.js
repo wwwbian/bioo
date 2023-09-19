@@ -30,14 +30,14 @@ document.getElementById('BotonGenerador').addEventListener('click', function () 
 
 // TEXTO ADN
 botonADN.addEventListener("click", function () {
-  let elementoMensaje = document.getElementById("ola");
+  let elementoMensaje = document.getElementById("texto1");
   let mensaje = "Se genera la cadena de ADN";
   elementoMensaje.textContent = mensaje;
 });
 
 // TEXTO ARN
 botonARN.addEventListener("click", function () {
-    let elementoMensajee = document.getElementById("ola2");
+    let elementoMensajee = document.getElementById("texto2");
     let mensaje2 = "Se traduce la cadena de ADN a ARN";
     elementoMensajee.textContent = mensaje2;
   });

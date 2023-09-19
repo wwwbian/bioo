@@ -2,5 +2,26 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: green
+    background-color: rgb(6, 104, 61)
+
+}
+#secuenciaADN{
+    display: flex;
+    justify-content: center;
+    
+}
+#secuenciaARN{
+    display: flex;
+    justify-content: center;
+}
+#texto1{
+    display: flex;
+    justify-content: center;
+}
+#texto2{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: rgb(66, 132, 66);
 }
