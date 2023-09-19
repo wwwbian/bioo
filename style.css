@@ -22,6 +22,6 @@
     display: flex;
     justify-content: center;
 }
-.btn{
-    background-color: rgb(66, 132, 66);
+#navbar{
+    background-color: rgb(6, 104, 61);
 }
